@@ -1,0 +1,11 @@
+--> https://youtu.be/xy6FUwftz1Q (not Derek Banas)
+
+Object creation, software design patterns, used to solve the problem of
+    "never-ending constructor parameter anti-pattern".
+
+* Split our class into different parts based on fields/instance variables categorization.
+* Very cool with method chaining! We also do not need to pass "null" for arguments:
+    - Instead, we can just choose to not specify them.
+
+
++ Clean code and clean objects!

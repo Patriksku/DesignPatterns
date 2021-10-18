@@ -1,0 +1,15 @@
+* When a method returns one of several possible classes that share a common super class.
+
+    - Create a new enemy in a game
+    - RNG picks a number assigned to a specific enemy
+    - The factory returns the enemy-object associated with that number.
+
+* The class is chosen at run-time.
+
+
+When to use:
+    - When you do not know ahead of time what class object you need.
+    - When all of the potential classes are in the same subclass hierarchy.
+    - To centralize class selection code.
+    - When you do not want the user to have to know every subclass.
+    - To encapsulate object creation.

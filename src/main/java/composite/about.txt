@@ -1,0 +1,7 @@
+* Allows you to treat individual objects and compositions of objects uniformly.
+* They allow you to represent part-whole hierarchies:
+    - Components can be further divided into smaller components.
+* You can structure data, or represent the inner working of every part of a whole object individually.
+
+
+Overview pic: https://youtu.be/2HUnoKyC9l0?list=PLF206E906175C7E07&t=132

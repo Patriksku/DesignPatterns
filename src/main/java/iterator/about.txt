@@ -1,0 +1,21 @@
+ -> https://youtu.be/QCWJWfuAfJc
+
+ The iterator design pattern extracts the traversal behavior of a collection into a
+ separate object called an iterator. It traverses the elements of a collection without exposing
+ its underlying representation, and while doing so, encapsulates all of the traversal details.
+
+    - The iterator is like a guide.
+    - You tell the guide what places you are interested in, and the guide will tailor the trip for you.
+    - The guide does not know who you are (the underlying logic of a collection is unknown), but is still able to help you.
+
+
+ Use the Iterator pattern when your collection has a complex data structure under the hood,
+ but you want to hide its complexity from clients (either for convenience or security reasons).
+
+ The iterator encapsulates the details of working with a complex data structure,
+ providing the client with several simple methods of accessing the collection elements.
+
+ Use the pattern to reduce duplication of the traversal code across your app.
+
+ Use the Iterator when you want your code to be able to traverse different data structures
+ or when types of these structures are unknown beforehand.
